@@ -1,0 +1,16 @@
+<h1 translate>NAVBAR.SUGGEST_LINK</h1>
+
+<p translate>SUGGEST.INTRO</p>
+<h2 translate>SUGGEST.PRICES.TITLE</h2>
+<ul>
+	<li ng-repeat="sug in appDatas.suggestionsMenu"><a  href="" ng-click="changeIndex(sug.index)">{{sug.name | translate}}</a></li>
+</ul>
+
+<div class="carousel-wrapper">
+	<ul rn-carousel rn-carousel-control rn-carousel-index="defaultIndex" class="span3">
+		<li ng-repeat="sug in appDatas.suggestionsMenu">
+			<img ng-src="{{sug.link}}" alt="" width="90%">
+		</li>
+	</ul>
+</div>
+ 

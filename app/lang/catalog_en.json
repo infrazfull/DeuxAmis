@@ -1,0 +1,29 @@
+{
+  	"NAVBAR" : {
+		    "HOME_LINK" : "Home",
+		    "CHIEFS_LINK" : "The chiefs",
+		    "SUGGEST_LINK" : "Our Suggestions",
+		    "CREATIONS_LINK" : "Our creations",
+		    "PHILOSOPHY_LINK" : "Our philosophy",
+		    "CONTACT_LINK" : "Contact"
+	},
+	"CHIEFS" : {
+			"NICOLAS" : "<p>Nicolas is a young French chef who loves cooking and living.</p><p>. Grew up in Lyon, he obtained his degree as a cook at the restaurant La Marelle * in Bresse At another point in his career in the restaurant Les Trois Domes *, he met Xavier Klotz, know his future business partner.</p><p>During his last years, Nicolas worked at several large chef.</p><p>A rich experience has been in the restaurant Thomas in Lyon where he could make verfeineren his skills and became the boss.</p><p>The desire for something new to expand his experience, he worked in Switzerland in Restaurant / Hotel du Cerf in Sonceboz * This rich experiences gave him like his own project, along with Xavier. to resalisieren to share for others to his passion for cooking and his knowledge.</p>",
+			"XAVIER" : "<p>Dual Graduate of the Institut Paul Bocuse in Lyon, with a Bachelor Arts culinaires and a Master Management Culinaire & innovation , Xavier knows both the French cuisine as well as their techniques and background. </p><p> His cuisine is characterized on the one hand through renovations and an experimental gastronomy, includes a reinterpretation of the French art of cooking ie \" nouvelle vague \" . </p><p> His collaboration with Alain Desvilles * in Lyon, Claude Legras ** in Geneva, Pierre Gagnaire ** in London, Segantini restaurant in Zurich him a 360 ° C vision of French cuisine have given . </p><p> During his professional experiences Xavier developed a great expertise for the concerns of the customer and the various facets of the service. </p><p>All his international experience in innovative houses have caused him the idea of ​​his culinary skills to implement and pampering his clientele and with \" Deux Amis cook for you, \" to take the first step as a young entrepreneur.</p>"
+	},
+	"PHILOSOPHY" : {
+			"BODY" : "<p>Eating with friends is a moment of pleasure and joy.<p></p>It combines and lets guests experience an unforgettable moment of friendship.<p></p>This Anlieben and philosophy derives « deux amis » in their daily work and our passion , which we associate with it .<p></p>Be received and entertained the manner in which the invitee is very important for the success of an invitation.<p></p>To your success we can offer our culinary experience \" french touch and suissequality \" .<p></p>With you develop the menu , which we then cook in your kitchen, so you can pamper your guests.<p></p>We guarantee you a French \" art Culinaire \" , based on your needs and desires.<p></p>We attach great importance to the quality of the products and their origin. We propose only menus, which are seasonal and bring our notions of quality and the attachment to the \" slow food \" concerns expressed .<p></p>Our goal is to offer a young, creative and contemporaine kitchen.<p></p>The combination of quality , pleasure and surprise of taste .<p></p>Do you live . Unforgettable moment with the people who are important to you<p></p>Two young French chefs are happy to help in implementing this challenge.<p></p>We look forward to working with you!</p>"
+	},
+	"CONTACT" : {
+			"INTRO" : "<p>Please contact us without hesitation.<p></p>We are looking forward to you as soon as possible to be able to give an answer.<p></p>With best regards and see you soon!</p>"
+	},
+	"SUGGEST" : {
+			"INTRO" : "<p>Here we provide you a suggestion before one of our menu suggestions.</p><p>Our menus are seasonally driven and prepared with freshly purchased ingredients and foods.</p><p>We work with you like menus (meat, fish and vegetarian), just as we are able to make suggestions for allergy sufferers and cook.</p><p>We are pleased to work with you your creative ideas for an unforgettable lunch or dinner - to realize culinary - with friends, with your family, etc..</p>",
+			"PRICES" : {
+				"TITLE" : "Prices",
+				"MENU3" : "3 course menu: Mise en place (package) + 45 CHF / person",
+				"MENU3-VEG" : "3 vegetarian course menu: Mise en place (package) + 45 CHF / person",
+				"MENU4" : "4 course menu: Mise en place (package) + 55 CHF / person"
+			}
+	}
+  }

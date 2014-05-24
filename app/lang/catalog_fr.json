@@ -1,0 +1,29 @@
+{
+  	"NAVBAR" : {
+    		"HOME_LINK" : "Accueil",
+    		"CHIEFS_LINK" : "Les Chefs",
+    		"SUGGEST_LINK" : "Suggestions",
+    		"CREATIONS_LINK" : "Nos créations",
+    		"PHILOSOPHY_LINK" : "Notre philosophie",
+    		"CONTACT_LINK" : "Contact"
+	},
+	"CHIEFS" : {
+			"NICOLAS" : "<p>Nicolas est un jeune chef français qui aime la cuisine et la vie.</p><p>Ayant grandi à Lyon, il a obtenu son diplôme de cuisinier au restaurant La Marelle* en Bresse. À un autre moment de sa carrière dans le restaurant Les Trois Dômes*, il a rencontré Xavier Klotz, son futur partenaire d'affaires.</p><p>Au cours de ses dernières années, Nicolas a travaillé avec plusieurs grands chef.</p><p>Il a eu une expérience enrichissante dans le restaurant Thomas à Lyon où il pourrait faire verfeineren ses compétences et est devenu le patron.</p><p>Le désir de quelque chose de nouveau pour élargir son expérience, il a travaillé en Suisse en Restaurant / Hôtel du Cerf à Sonceboz * Cette riche expérience lui a donné comme son propre projet, avec Xavier. à resalisier à partager pour les autres à sa passion pour la cuisine et ses connaissances</p>",
+			"XAVIER" : "<p>Double diplômé de l'Institut Paul Bocuse à Lyon , avec un baccalauréat Arts culinaires et une Culinaire & innovation directeur de la gestion , Xavier connaît à la fois la cuisine française ainsi que leurs techniques et de fond </p><p> Sa cuisine se caractérise d'une part par le biais des travaux de rénovation et une gastronomie expérimentale , comprend une réinterprétation de l'art français de la cuisine dire \" nouvelle vague \" . </p><p> Sa collaboration avec Alain Desvilles * à Lyon , Claude Legras ** à Genève , Pierre Gagnaire ** à Londres , restaurant Segantini à Zurich lui une vision à 360 ° C de la cuisine française ont donné . </p><p> Au cours de ses expériences professionnelles Xavier a développé une grande expertise pour les préoccupations du client et les différentes facettes de ce service. </p><p> Tout son expérience internationale dans des maisons innovantes ont lui a causé l'idée de ses talents culinaires à mettre en œuvre et choyer sa clientèle et avec \" Deux Amis cuisiner pour vous , \" à faire le premier pas en tant que jeune entrepreneur . </p>"
+	},
+	"PHILOSOPHY" : {
+			"BODY" : "<p>Manger avec des amis est un moment de plaisir et de joie.</p><p>Il combine et permet aux clients de vivre un moment inoubliable de l'amitié .</p><p>Cette Anlieben et philosophie découle « Deux Amis » dans leur travail quotidien et notre passion , que nous associons avec elle .</p><p>Recevoir et divertir la manière dont l'invité est très important pour le succès d'une invitation .</p><p>Pour votre réussite , nous pouvons offrir notre expérience culinaire \" tactile française et suissequality \" .</p><p>Avec vous développez le menu , qui nous cuisinons puis dans votre cuisine , vous pouvez prendre soin de vos invités .</p><p>Nous vous garantissons un \"art Culinaire\" , en fonction de vos besoins et désirs.</p><p>Nous attachons une grande importance à la qualité des produits et leur origine . Nous proposons uniquement des menus , qui sont de saison et font les notions de qualité et de l'attachement aux préoccupations \" slow food \" exprimées.</p><p>Notre objectif est d'offrir une cuisine jeune, créative et contemporaine .</p><p>La combinaison de la qualité , le plaisir et la surprise de goût .</p><p>Vous habitez . Moment inoubliable avec les personnes qui sont importantes pour vous</p><p>Deux jeunes chefs français sont heureux de vous aider à mettre en œuvre ce défi .</p><p>Nous sommes impatients de travailler avec vous !</p>"
+	},
+	"CONTACT" : {
+			"INTRO" : "<p>S'il vous plaît contactez-nous sans hésitation.</p><p>Nous sommes impatients de vous dès que possible pour être en mesure de donner une réponse.</p><p>Avec mes meilleures salutations et à bientôt!</p>"
+	},
+	"SUGGEST" : {
+			"INTRO" : "<p>Ici nous vous fournissons une suggestion avant une de nos suggestions de menus.</p><p>Nos menus sont entraînés saisons et préparés avec des ingrédients et des aliments fraîchement achetés.</p><p>Nous travaillons avec vous comme les menus (viande, poisson et végétarien), tout comme nous sommes en mesure de faire des suggestions pour les personnes allergiques et cuisiner.</p><p>Nous sommes heureux de travailler avec vous vos idées créatives pour un déjeuner ou un dîner inoubliable - pour réaliser culinaire - avec des amis, avec votre famille, etc.</p>",
+			"PRICES" : {
+				"TITLE" : "Prix",
+				"MENU3" : "Menu 3 plats: Mise en place (forfait) + 45 CHF / personne",
+				"MENU3-VEG" : "Menu 3 plats végétariens: Mise en place (forfait) + 45 CHF / personne",
+				"MENU4" : "Menu 4 plats: Mise en place (forfait) + 55 CHF / personne"
+			}
+	}
+}

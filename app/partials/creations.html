@@ -1,0 +1,10 @@
+<h1 translate>NAVBAR.CREATIONS_LINK</h1>
+
+<ul style="list-style: none;">
+	<li ng-repeat="creation in creations" class="span3">
+		<a href="" ng-click="selectCreation(creation)">{{creation.title}}</a>
+		<!-- <img ng-src="{{creation.ref}}" alt=""> -->
+		<!-- <p>{{creation.value}}</p> -->
+	</li>
+</ul>
+<img ng-src="{{currentCreation.ref}}" alt="">

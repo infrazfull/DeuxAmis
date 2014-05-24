@@ -1,0 +1,29 @@
+{
+  	"NAVBAR" : {
+		    "HOME_LINK" : "Startseite",
+		    "CHIEFS_LINK" : "die Häuptlinge",
+		    "SUGGEST_LINK" : "unsere Vorschläge",
+		    "CREATIONS_LINK" : "unsere Kreationen",
+		    "PHILOSOPHY_LINK" : "unsere Philosophie",
+		    "CONTACT_LINK" : "Kontakt"
+	},
+	"CHIEFS" : {
+			"NICOLAS" : "<p>Nicolas ist ein junger französische Küchenchef der das Kochen liebt und lebt.</p><p>In Lyon aufgewachsen, erlangte er sein Diplom als Koch im Restaurant La Marelle* in der Bresse. Bei einer weiteren Station seiner Laufbahn, im Restaurant Les Trois Dômes*, lernte er Xavier Klotz, sein zukünftiger Geschäftspartner kennen.</p><p>Während seinen letzten Jahren arbeitete Nicolas bei verschiedenen grossen Küchenchefs.</p><p>Eine reiche Erfahrung konnte er im Restaurant Thomas in Lyon machen wo er seine Kompetenzen verfeineren konnte und zum Chef  avancierte.</p><p>Die Lust auf Neues um seine Erfahrungen zu erweitern, arbeitete er in der Schweiz im Restaurant / Hotel du Cerf* in Sonceboz.</p><p>Diese reichen Erfahrungen gaben ihm  Lust sein eigenes Projekt, zusammen  mit Xavier  zu resalisieren um Andere an seiner Kochleidenschaft und seinen  Kenntnissen  teilhaben zu lassen.</p>",
+			"XAVIER" : "<p>Zweifach Diplomierter des Institut Paul Bocuse in Lyon,  mit einem Bachelor Arts culinaires und einem Master Management culinaire & innovation, kennt Xavier sowohl die französischen Küche wie auch deren Techniken und Hintergrund.</p><p>Seine Küche charakterisiert sich einerseits durch  Erneuerungen und einer experimentellen Gastronomie, beinhaltet eine Neuinterpretation der französischen Kochkunst sprich « nouvelle vague ».</p><p>Seine Zusammenarbeit mit Alain Desvilles* in Lyon, Claude Legras** in Genf, Pierre Gagnaire** in London, Segantini Restaurant in Zürich haben ihm eine 360°C Vision der französischen Küche verliehen.</p><p>Während seinen professionellen Erfahrungen entwickelte Xavier eine grosse Kompetenz für die Anliegen des Kunden  und  die verschiedenen Facetten der Dienstleistung.</p><p>All seine internationalen Erfahrungen in innovativen Häusern haben ihn veranlasst die Idee seiner Kochkunst zu realisieren sowie seine Kundschaft zu verwöhnen und mit « Deux Amis kochen bei Ihnen »  den ersten Schritt als Jungunternehmer zu wagen.</p>"
+	},
+	"PHILOSOPHY" : {
+			"BODY" : "<p>Das Essen mit Freunden ist ein Moment des Vergnügens und der Freude.</p><p>Es vereint und lässt die Gäste einen unvergesslichen Moment der Freundschaft erleben.</p><p>Dieses Anlieben und Philosophie leitet « deux amis » bei der täglichen Arbeit und unserer Leidenschaft, welche wir damit verbinden.</p><p>&nbsp;</p><p>Die Art und Weise wie die Eingeladenen empfangen und bewirtet werden ist für den Erfolg einer Einladung sehr wichtig.</p><p>Zu Ihrem Erfolg können wir unsere kulinarische Erfahrung anbieten « french touch and suisse quality ».</p><p>Mit Ihnen das Menu entwickeln, welches wir dann in Ihrer Küche kochen, damit Sie Ihre Gäste verwöhnen können.</p><p>Wir garantieren Ihnen eine französische « art culinaire », basierend auf Ihren Vorstellungen und Wünschen.</p><p>&nbsp;</p><p>Wir legen sehr grossen Wert auf die Qualität der Produkte und ihrer Herkunft.&nbsp;Wir schlagen nur Menus vor, welche saisonal sind und unseren Vorstellungen von Qualität und die Verbundenheit mit den « slow food » Anliegen zum Ausdruck bringen.</p><p>&nbsp;</p><p>Unser Ziel ist, eine junge, kreative und contemporaine Küche anzubieten.</p><p>Die Vereinigung von Qualität, Vergnügen und geschmacklicher Überraschung.</p><p>&nbsp;</p><p>Leben Sie einen unvergesslichen Moment mit den Personen, welche Ihnen wichtig sind.</p><p>Zwei junge französische Küchenchefs helfen Ihnen gerne bei der Umsetzung dieser Herausforderung.</p><p>&nbsp;</p><p>Wir freuen uns auf die Zusammenarbeit !</p>"
+	},
+	"CONTACT" : {
+			"INTRO": "Bitte kontaktieren Sie uns ohne zu zögern.</p><p>Wir freuen uns Ihnen so schnell wie möglich eine Antwort geben zu können.</p><p>Mit den besten Grüssen und bis bald!"
+	},
+	"SUGGEST" : {
+			"INTRO" : "<p>Hier stellen wir Ihnen als Anregung einzelne unserer Menuvorschläge vor.</p><p>Unsere Menus sind saisonal orientiert und mit täglich frisch eingekauften Zutaten und Nahrungsmitteln zubereitet.</p><p>Wir erarbeiten mit Ihnen gerne  Menus  (Fleisch, Fisch und vegetarisch), ebenso sind wir in der Lage für AllergikerInnen Vorschläge zu machen und zu kochen.</p><p>Wir freuen uns,  mit Ihnen Ihre kreativen Vorstellungen für ein unvergessliches Abend- oder Mittagessen – mit Freunden, im Familienkreis usw. – kulinarisch zu realisieren.</p>",
+			"PRICES" : {
+				"TITLE" : "Preise",
+				"MENU3" : "3 Gang Menü: Mise en place (Pauschale) + 45 CHF/Person",
+				"MENU3-VEG" : "3 Vegetarier Gang Menü: Mise en place (Pauschale) + 45 CHF/Person",
+				"MENU4" : "4 Gang Menü: Mise en place (Pauschale) + 55 CHF/Person"
+			}
+	}
+  }
