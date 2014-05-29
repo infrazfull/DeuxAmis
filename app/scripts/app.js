@@ -5,7 +5,7 @@ var app = angular.module('deuxamisApp', ['ngRoute','ngAnimate','pascalprecht.tra
 app.config(function($routeProvider) {
     $routeProvider
     .when('/', {templateUrl: 'partials/default.html',controller: 'defaultPageCtrl'})
-    .when('/chiefs', {templateUrl: 'partials/chiefs.html', controller: 'ChiefsPageCtrl'})
+    .when('/chiefs', {templateUrl: 'partials/chiefs.html', controller: 'ChiefsCtrl'})
     .when('/suggestions', {templateUrl: 'partials/suggestions.html', controller: 'SuggestionCtrl'})
     .when('/creations', {templateUrl: 'partials/creations.html', controller: 'CreationsCtrl'})
     .when('/contact', {templateUrl: 'partials/contact.html'})

@@ -26,12 +26,12 @@
     <![endif]-->
 
     <header role="banner" id="top" class="navbar navbar-static-top bs-docs-nav clearfix">
-      <div class="container" ng-controller="LangCtrl">
+      <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-sm-10 col-xs-12 col-xs-offset-0">
             <img class="img-responsive" src="images/logo.png" alt="Logo Deux Amis" >
           </div>
-          <div class="col-md-2 col-sm-2 col-xs-8" >
+          <div class="col-md-2 col-sm-2 col-xs-8" ng-controller="LangCtrl">
             <div class="row">
               <div class="col-md-4 col-sm-12 col-xs-4">
                 <div class="lang-item" ng-class="getClass('fr')">
@@ -60,26 +60,26 @@
               </button>
             </div>
           </div>
-          <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-md-12 col-sm-12 col-xs-12" ng-controller="MenuCtrl">
             <nav role="navigation" class="navbar-collapse bs-navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-left">
-                <li>
-                  <a class="navbar-item" href="#" translate="NAVBAR.HOME_LINK"></a>
+                <li ng-class="getClass('/')">
+                  <a class="navbar-item" href="#" translate="NAVBAR.HOME_LINK">HOME</a>
                 </li>
-                <li>
-                  <a class="navbar-item active" href="#/chiefs" translate="NAVBAR.CHIEFS_LINK"></a>
+                <li  ng-class="getClass('/chiefs')">
+                  <a class="navbar-item active" href="#/chiefs" translate="NAVBAR.CHIEFS_LINK">CHIEFS</a>
                 </li>
-                <li>
-                  <a class="navbar-item " href="#/suggestions" translate="NAVBAR.SUGGEST_LINK"></a>
+                <li  ng-class="getClass('/suggestions')">
+                  <a class="navbar-item " href="#/suggestions" translate="NAVBAR.SUGGEST_LINK">SUGGEST</a>
                 </li>
-                <li>
-                  <a class="navbar-item" href="#/creations" translate="NAVBAR.PHILOSOPHY_LINK"></a>
+                <li  ng-class="getClass('/philosophy')">
+                  <a class="navbar-item" href="#/philosophy" translate="NAVBAR.PHILOSOPHY_LINK">PHILOSOPHY</a>
                 </li>
-                <li>
-                  <a class="navbar-item" href="#" translate="NAVBAR.CREATIONS_LINK"></a>
+                <li  ng-class="getClass('/creations')">
+                  <a class="navbar-item" href="#/creations" translate="NAVBAR.CREATIONS_LINK">CREATIONS</a>
                 </li>
-                <li>
-                  <a class="navbar-item" href="#" translate="NAVBAR.CONTACT_LINK"></a>
+                <li  ng-class="getClass('/contact')">
+                  <a class="navbar-item" href="#/contact" translate="NAVBAR.CONTACT_LINK">CONTACT </a>
                 </li>
               </ul>
             </nav>
@@ -88,9 +88,7 @@
       </div>
     </header>
     
-    <div class="container">
-      <div ng-view class="slide"></div>
-    </div>
+    <div ng-view class="container slide"></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -129,6 +127,7 @@
         <script src="scripts/controllers/defaultPageCtrl.js"></script>
         <script src="scripts/controllers/LangCtrl.js"></script>
         <script src="scripts/controllers/MenuCtrl.js"></script>
+        <script src="scripts/controllers/ChiefsCtrl.js"></script>
         <!-- endbuild -->
 </body>
 </html>

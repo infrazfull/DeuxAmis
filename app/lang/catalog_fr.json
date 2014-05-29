@@ -1,11 +1,37 @@
 {
-  	"NAVBAR" : {
+	"NAVBAR" : {
     		"HOME_LINK" : "Accueil",
     		"CHIEFS_LINK" : "Les Chefs",
     		"SUGGEST_LINK" : "Suggestions",
     		"CREATIONS_LINK" : "Nos créations",
     		"PHILOSOPHY_LINK" : "Notre philosophie",
     		"CONTACT_LINK" : "Contact"
+	},
+	"HOME" : {
+		"CHIEFS" : {
+				"TITLE" : "Les Deux Amis",
+				"CONTENT" : "Nicolas et Xaiver sont tous les deux des chefs talenteux qui espère retranscrire leur amitiée au travers de leur cuisine.",
+				"LINK" : "Connaître ces Deux chefs..."
+		},
+		"PHILOSOPHY" : {
+			"TITLE" : "Manger avec des amis est un moment de plaisir et de joie.",
+			"CONTENT" : "Il combine et permet aux clients de vivre un moment inoubliable de l'amitié .",
+			"LINK" : "En savoir plus..."
+		},
+		"CONTACT" : {
+			"TITLE" : "Nous contacter",
+			"CONTENT" : "<p>S'il vous plaît contactez-nous sans hésitation.</p><p>Nous sommes impatients de vous dès que possible pour être en mesure de donner une réponse.</p><p>Avec mes meilleures salutations et à bientôt!</p>"
+		},
+		"SUGGEST" : {
+			"TITLE" : "Les propositions des chefs",
+			"CONTENT" : "Les chefs vous propose des menus variés. Découvrez-vite ce que les chefs vous propose.",
+			"LINK" : "Décourvrir les propositions des chefs"
+		},
+		"CREATIONS" : {
+			"TITLE" : "Encore plus de plats",
+			"CONTENT" : "Vous être gourmand ? Dévouvrez les créations des chefs.",
+			"LINK" : "Découvrir les créations"
+		}
 	},
 	"CHIEFS" : {
 			"NICOLAS" : "<p>Nicolas est un jeune chef français qui aime la cuisine et la vie.</p><p>Ayant grandi à Lyon, il a obtenu son diplôme de cuisinier au restaurant La Marelle* en Bresse. À un autre moment de sa carrière dans le restaurant Les Trois Dômes*, il a rencontré Xavier Klotz, son futur partenaire d'affaires.</p><p>Au cours de ses dernières années, Nicolas a travaillé avec plusieurs grands chef.</p><p>Il a eu une expérience enrichissante dans le restaurant Thomas à Lyon où il pourrait faire verfeineren ses compétences et est devenu le patron.</p><p>Le désir de quelque chose de nouveau pour élargir son expérience, il a travaillé en Suisse en Restaurant / Hôtel du Cerf à Sonceboz * Cette riche expérience lui a donné comme son propre projet, avec Xavier. à resalisier à partager pour les autres à sa passion pour la cuisine et ses connaissances</p>",
@@ -18,12 +44,6 @@
 			"INTRO" : "<p>S'il vous plaît contactez-nous sans hésitation.</p><p>Nous sommes impatients de vous dès que possible pour être en mesure de donner une réponse.</p><p>Avec mes meilleures salutations et à bientôt!</p>"
 	},
 	"SUGGEST" : {
-			"INTRO" : "<p>Ici nous vous fournissons une suggestion avant une de nos suggestions de menus.</p><p>Nos menus sont entraînés saisons et préparés avec des ingrédients et des aliments fraîchement achetés.</p><p>Nous travaillons avec vous comme les menus (viande, poisson et végétarien), tout comme nous sommes en mesure de faire des suggestions pour les personnes allergiques et cuisiner.</p><p>Nous sommes heureux de travailler avec vous vos idées créatives pour un déjeuner ou un dîner inoubliable - pour réaliser culinaire - avec des amis, avec votre famille, etc.</p>",
-			"PRICES" : {
-				"TITLE" : "Prix",
-				"MENU3" : "Menu 3 plats: Mise en place (forfait) + 45 CHF / personne",
-				"MENU3-VEG" : "Menu 3 plats végétariens: Mise en place (forfait) + 45 CHF / personne",
-				"MENU4" : "Menu 4 plats: Mise en place (forfait) + 55 CHF / personne"
-			}
+			"INTRO" : "<p>Ici nous vous fournissons une suggestion avant une de nos suggestions de menus.</p><p>Nos menus sont entraînés saisons et préparés avec des ingrédients et des aliments fraîchement achetés.</p><p>Nous travaillons avec vous comme les menus (viande, poisson et végétarien), tout comme nous sommes en mesure de faire des suggestions pour les personnes allergiques et cuisiner.</p><p>Nous sommes heureux de travailler avec vous vos idées créatives pour un déjeuner ou un dîner inoubliable - pour réaliser culinaire - avec des amis, avec votre famille, etc.</p>"	
 	}
 }

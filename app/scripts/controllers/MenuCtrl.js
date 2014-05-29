@@ -1,15 +1,13 @@
 'use strict';
 
-angular.module('deuxamisApp').controller('MenuCtrl', function ($scope, $http, $location, appDatasModel) {
-
-	$scope.appDatas = appDatasModel;
+angular.module('deuxamisApp').controller('MenuCtrl', ['$scope', '$http', '$location', '$translate', function ($scope, $http, $location, $translate) {
 
 	$scope.getClass = function(path) {
-	    if (path.substring(1) === $location.path()) {
+	    if (path === $location.path()) {
 	      return 'active';
 		} else {
 	  		return '';
 		}
 	}
 
-});
+}]);
