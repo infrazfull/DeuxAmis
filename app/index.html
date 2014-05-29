@@ -28,7 +28,7 @@
     <header role="banner" id="top" class="navbar navbar-static-top bs-docs-nav clearfix">
       <div class="container" ng-controller="LangCtrl">
         <div class="row">
-          <div class="col-md-10 col-sm-10 col-xs-12">
+          <div class="col-md-8 col-md-offset-2 col-sm-10 col-xs-12 col-xs-offset-0">
             <img class="img-responsive" src="images/logo.png" alt="Logo Deux Amis" >
           </div>
           <div class="col-md-2 col-sm-2 col-xs-8" >
@@ -60,26 +60,26 @@
               </button>
             </div>
           </div>
-          <div class="col-sm-12 col-xs-12">
-            <nav role="navigation" class="navbar-collapse bs-navbar-collapse collapse" style="height: 1px;">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <nav role="navigation" class="navbar-collapse bs-navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-left">
                 <li>
-                  <a class="navbar-item" href="#" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.HOME_LINK"></a>
+                  <a class="navbar-item" href="#" translate="NAVBAR.HOME_LINK"></a>
                 </li>
                 <li>
-                  <a class="navbar-item active" href="#/chiefs" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.CHIEFS_LINK"></a>
+                  <a class="navbar-item active" href="#/chiefs" translate="NAVBAR.CHIEFS_LINK"></a>
                 </li>
                 <li>
-                  <a class="navbar-item " href="#/suggestions" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.SUGGEST_LINK"></a>
+                  <a class="navbar-item " href="#/suggestions" translate="NAVBAR.SUGGEST_LINK"></a>
                 </li>
                 <li>
-                  <a class="navbar-item" href="#/creations" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.PHILOSOPHY_LINK"></a>
+                  <a class="navbar-item" href="#/creations" translate="NAVBAR.PHILOSOPHY_LINK"></a>
                 </li>
                 <li>
-                  <a class="navbar-item" href="#" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.CREATIONS_LINK"></a>
+                  <a class="navbar-item" href="#" translate="NAVBAR.CREATIONS_LINK"></a>
                 </li>
                 <li>
-                  <a class="navbar-item" href="#" data-target=".bs-navbar-collapse" data-toggle="collapse" translate="NAVBAR.CONTACT_LINK"></a>
+                  <a class="navbar-item" href="#" translate="NAVBAR.CONTACT_LINK"></a>
                 </li>
               </ul>
             </nav>
@@ -87,8 +87,9 @@
         </div>
       </div>
     </header>
-
-    <div class="container slide clearfix" ng-view>
+    
+    <div class="container">
+      <div ng-view class="slide"></div>
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->

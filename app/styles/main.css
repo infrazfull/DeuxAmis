@@ -1,8 +1,14 @@
 body {
-    background: -moz-linear-gradient(left, #ABABAB, #CDCDCD);
+    /* background: -moz-linear-gradient(left, #ABABAB, #CDCDCD);
     background: -o-linear-gradient(left, #ABABAB, #CDCDCD);
     background: -webkit-linear-gradient(left, #ABABAB, #CDCDCD);
-    background: linear-gradient(to left, #ABABAB, #CDCDCD);
+    background: linear-gradient(to left, #ABABAB, #CDCDCD); */
+    background-color: #F9F7EB;
+    font-size: 15px;
+}
+
+.center {
+    text-align: center;
 }
 
 .site-icon {
@@ -42,11 +48,28 @@ body {
 	margin-top: 15px;
 }
 
+.home-list {
+    text-align: center;
+}
+
+.home-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.home-list-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 .slide {
     position: relative;
-    left: 5%;
-    display: inline-block;
-    overflow: hidden;
 }
 .slide.ng-enter,
 .slide.ng-leave {
@@ -66,4 +89,51 @@ body {
 }
 .slide.ng-leave-active {
     left: -120%;
+}
+
+.section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+
+.section-chiefs {
+    background-image: url("../images/Home/Accueil_Chefs.png");
+}
+
+.section-suggestions {
+    background-image: url("../images/Home/Accueil_Suggestion.png");   
+}
+
+.section-philosophy {
+    background-image: url("../images/Home/Accueil_Philosophie.png");      
+}
+
+.section-creations {
+    background-image: url('../images/Home/Accueil_Creation.png');
+}
+
+.section-contact {
+    background-image: url('../images/Home/Accueil_Contact.png');
+}
+
+.section-title {
+    border: 8px solid #FFFFFF;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 30px 40px;
+    position: relative;
+    top: 50%;
+    background-color: #CDB486;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title-link {
+    color: #FFF;
+}
+
+.section-content {
+    min-height: 500px;
 }
