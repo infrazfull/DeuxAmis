@@ -157,3 +157,7 @@ body {
 .text-content {
     text-align: justify;
 }
+
+.rn-carousel-slide {
+    text-align: center;
+}

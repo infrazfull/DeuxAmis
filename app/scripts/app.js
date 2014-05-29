@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
     $routeProvider
     .when('/', {templateUrl: 'partials/default.html',controller: 'defaultPageCtrl'})
     .when('/chiefs', {templateUrl: 'partials/chiefs.html', controller: 'ChiefsCtrl'})
-    .when('/suggestions', {templateUrl: 'partials/suggestions.html', controller: 'SuggestionCtrl'})
+    .when('/suggestions', {templateUrl: 'partials/suggestions.html', controller: 'SuggestionsCtrl'})
     .when('/creations', {templateUrl: 'partials/creations.html', controller: 'CreationsCtrl'})
     .when('/contact', {templateUrl: 'partials/contact.html'})
     .when('/philosophy',{templateUrl: 'partials/philosophy.html'})
