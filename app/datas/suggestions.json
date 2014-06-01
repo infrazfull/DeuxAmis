@@ -1,0 +1,22 @@
+{
+	"suggestions" : [
+		{
+			"titleFr" : "Menu 3 plats: Mise en place (forfait) + 45 CHF / personne",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/suggestions/Menu3.jpg"
+		},
+		{
+			"titleFr" : "Menu 3 plats végétariens: Mise en place (forfait) + 45 CHF / personne",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/suggestions/Menu3_veg.jpg"
+		},
+		{
+			"titleFr" : "Menu 4 plats: Mise en place (forfait) + 55 CHF / personne",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/suggestions/Menu4.jpg"
+		}
+	]
+}

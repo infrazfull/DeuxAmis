@@ -1,0 +1,58 @@
+{
+	"creations": [
+		{
+			"titleFr" : "Aile de raie façon grenobloise",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Aile de raie facon grenoboise.jpg"
+		},
+		{
+			"titleFr" : "Caille farcie aux girolles",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Caille Farcie aux girolles.jpg"
+		},
+		{
+			"titleFr" : "Dessert 2D - 3D",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Dessert 2D - 3D.jpg"
+		},
+		{
+			"titleFr" : "Filet de bar roti",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Filet de bar roti.jpg"
+		},
+		{
+			"titleFr" : "Oeuf mollet croustillant",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Oeuf mollet croustillant.jpg"
+		},
+		{
+			"titleFr" : "Poire pochée à la vanille",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Poire pochee a la vanille.jpg"
+		},
+		{
+			"titleFr" : "Raviole ouverte aux langoustines",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Raviole ouverte aux langoustines.jpg"
+		},
+		{
+			"titleFr" : "Tartare de boeuf",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Tartare de boeuf.jpg"
+		},
+		{
+			"titleFr" : "Tourte aux légumes d'hiver",
+			"titleEn" : "",
+			"titleDe" : "",
+			"imageUrl" : "/images/creations/Tourte aux legumes d hiver.jpg"
+		}
+	]
+}
