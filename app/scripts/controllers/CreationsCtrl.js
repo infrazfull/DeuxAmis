@@ -70,6 +70,6 @@ angular.module('deuxamisApp').controller('CreationsCtrl', ['$scope', '$http', '$
 		} else {
 			return $scope.creationsSelected.imageUrl;
 		}
-	}
+	};
 
 }]);

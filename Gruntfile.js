@@ -23,7 +23,7 @@ module.exports = function (grunt) {
       // configurable paths
       app: require('./bower.json').appPath || 'app',
       dist: 'dist',
-      deploy: 'C:\\wamp\\www\\DA'
+      deploy: 'C:\\wamp\\www'
     },
 
     // Watches files for changes and runs tasks based on the changed files
@@ -163,7 +163,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            //'<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -174,7 +174,7 @@ module.exports = function (grunt) {
     // concat, minify and revision files. Creates configurations in memory so
     // additional tasks can operate on them
     useminPrepare: {
-      html: '<%= yeoman.app %>/index.html',
+      html: ['<%= yeoman.app %>/index.html','<%= yeoman.app %>/partials/{,*/}*.html'],
       options: {
         dest: '<%= yeoman.dist %>',
         flow: {
@@ -191,7 +191,7 @@ module.exports = function (grunt) {
 
     // Performs rewrites based on rev and the useminPrepare configuration
     usemin: {
-      html: ['<%= yeoman.dist %>/{,*/}*.html'],
+      html: ['<%= yeoman.dist %>/{,*/}*.html', '<%= yeoman.dist %>/partials/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
       options: {
         assetsDirs: ['<%= yeoman.dist %>']
@@ -279,9 +279,16 @@ module.exports = function (grunt) {
             '*.html',
             'partials/{,*/}*.html',
             'images/{,*/}*.{webp}',
+            'images/**',
             'fonts/*',
-            'lang/*'
+            'lang/*',
+            'datas/*'
           ]
+        } , {
+          expand: true,
+          cwd: '<%= yeoman.app %>/bower_components/bootstrap/dist/fonts',
+          dest: '<%= yeoman.dist %>/bower_components/bootstrap/dist/fonts',
+          src: '*.*'
         }, {
           expand: true,
           cwd: '.tmp/images',
@@ -312,9 +319,9 @@ module.exports = function (grunt) {
         'copy:styles'
       ],
       dist: [
-        'copy:styles',
-        'imagemin',
-        'svgmin'
+        'copy:styles'
+        /*'imagemin',
+        'svgmin'*/
       ]
     },
 
