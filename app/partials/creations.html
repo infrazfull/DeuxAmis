@@ -1,10 +1,13 @@
-<h1 translate>NAVBAR.CREATIONS_LINK</h1>
+<h1 translate="NAVBAR.CREATIONS_LINK">CREATIONS</h1>
 
-<ul style="list-style: none;">
-	<li ng-repeat="creation in creations" class="span3">
-		<a href="" ng-click="selectCreation(creation)">{{creation.title}}</a>
-		<!-- <img ng-src="{{creation.ref}}" alt=""> -->
-		<!-- <p>{{creation.value}}</p> -->
-	</li>
-</ul>
-<img ng-src="{{currentCreation.ref}}" alt="">
+<div class="row">
+	<div class="col-md-3">
+		<div class="list-group">
+			<a ng-repeat="creation in creations" href="" class="list-group-item" ng-class="{active: isSelected(creation)}" ng-click="selectCreation(creation)">{{getLabel(creation)}}</a>
+		</div>
+	</div>
+	<div class="col-md-9">
+		<h2>{{getSelectedTitle()}}</h2>
+		<img ng-src="{{getSelectedImage()}}" alt="" class="img-responsive">
+	</div>
+</div>

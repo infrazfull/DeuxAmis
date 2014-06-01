@@ -1,13 +1,16 @@
-<h1 translate="NAVBAR.SUGGEST_LINK">SUGGESTION</h1>
 
-<p translate="SUGGEST.INTRO">INTRO</p>
-<ul>
-	<li ng-repeat="suggestion in suggestions"><a  href="" ng-click="changeIndex(suggestion)">{{getLabel(suggestion)}}</a></li>
-</ul>
 
 <!-- <img ng-repeat="suggestion in suggestions" ng-src="{{suggestion.imageUrl}}" alt=""> -->
 <div class="row">
-	<div class=" col-md-8 col-md-offset-2 col-xs-offset-0 col-xs-12">
+	<div class="col-md-6">
+		<h1 translate="NAVBAR.SUGGEST_LINK">SUGGESTION</h1>
+		<p translate="SUGGEST.INTRO">INTRO</p>
+		<div class="list-group">
+			<a ng-repeat="suggestion in suggestions" href="" class="list-group-item" ng-click="changeIndex(suggestion)" ng-class="{active : isSelected(suggestion)}">{{getLabel(suggestion)}}</a>
+		</div>
+	</div>
+
+	<div class=" col-md-6 col-xs-12">
 		<ul rn-carousel rn-carousel-control rn-carousel-index="defaultIndex">
 			<li ng-repeat="suggestion in suggestions">
 				<img ng-src="{{suggestion.imageUrl}}" class="img-responsive" alt="">
