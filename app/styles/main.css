@@ -136,10 +136,7 @@ body {
 
 .section-content {
     min-height: 300px;
-    width: 50%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10%;
 }
 
@@ -160,4 +157,39 @@ body {
 
 .rn-carousel-slide {
     text-align: center;
+}
+
+.social-icon {
+    background-image: url("../images/contact/flatIconSet.jpg");
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+}
+
+.social {
+    /*text-align: right;*/
+}
+
+.social.social-twitter {
+    background-color: #2aa9de;
+}
+
+.social.social-facebook {
+    background-color: #3A5898;
+}
+
+.social.social-googleplus {
+    background-color: #CC3731;
+}
+
+.social-icon.social-icon-facebook {
+    background-position: -457px -168px;
+}
+
+.social-icon.social-icon-twitter {
+    background-position: -364px -261px;
+}
+
+.social-icon.social-icon-googleplus {
+    background-position: -364px -73px;
 }
