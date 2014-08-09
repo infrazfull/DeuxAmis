@@ -8,7 +8,7 @@ angular.module('deuxamisApp').factory('creationsFactory', ['$http','$q', functio
 			console.log("deffered");
 			if(factory.creations === false) {
 				console.log("getHttp");
-				$http({method: 'GET', url: '/datas/creations.json'}).
+				$http({method: 'GET', url: '/api/creations.json'}).
 				success(function(data, status, headers, config) {
 			    	factory.creations = data.creations;
 					deffered.resolve(data.creations);
@@ -41,14 +41,15 @@ angular.module('deuxamisApp').controller('CreationsCtrl', ['$scope', '$http', '$
 	}
 
 	$scope.getLabel = function(creations) {
+		console.log(creations);
 		if($translate.use() == 'fr') {
-			return creations.titleFr;
+			return creations.Creation.titleFr;
 		}
 		if($translate.use() == 'en') {
-			return creations.titleEn;
+			return creations.Creation.titleEn;
 		}
 		if($translate.use() == 'de') {
-			return creations.titleDe;
+			return creations.Creation.titleDe;
 		}
 	};
 
@@ -68,7 +69,7 @@ angular.module('deuxamisApp').controller('CreationsCtrl', ['$scope', '$http', '$
 		if($scope.creationsSelected === false) {
 			return "";
 		} else {
-			return $scope.creationsSelected.imageUrl;
+			return "api/" + $scope.creationsSelected.Creation.imageUrl;
 		}
 	};
 

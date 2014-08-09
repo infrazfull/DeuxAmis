@@ -8,7 +8,7 @@ angular.module('deuxamisApp').factory('suggestionsFactory', ['$http','$q', funct
 			console.log("deffered");
 			if(factory.suggestions === false) {
 				console.log("getHttp");
-				$http({method: 'GET', url: '/datas/suggestions.json'}).
+				$http({method: 'GET', url: '/api/suggestions.json'}).
 				success(function(data, status, headers, config) {
 			    	factory.suggestions = data.suggestions;
 					deffered.resolve(data.suggestions);
@@ -49,13 +49,13 @@ angular.module('deuxamisApp').controller('SuggestionsCtrl', ['$scope', '$http', 
 
 	$scope.getLabel = function(suggestion) {
 		if($translate.use() == 'fr') {
-			return suggestion.titleFr;
+			return suggestion.Suggestion.titleFr;
 		}
 		if($translate.use() == 'en') {
-			return suggestion.titleEn;
+			return suggestion.Suggestion.titleEn;
 		}
 		if($translate.use() == 'de') {
-			return suggestion.titleDe;
+			return suggestion.Suggestion.titleDe;
 		}
 	};
 
